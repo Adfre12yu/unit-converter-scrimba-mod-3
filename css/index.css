@@ -2,3 +2,72 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background-color: #1c1c1c;
+}
+
+.body-div {
+  background-color: #1f2937;
+  max-width: 960px;
+  margin: 30px auto;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  color: white;
+}
+
+input {
+  border: none;
+  color: white;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  background: rgba(255, 255, 255, 0);
+  font-weight: 800;
+  font-size: 98px;
+  max-width: 300px;
+  outline: none;
+}
+
+header {
+  background-image: linear-gradient(
+    65deg,
+    hsl(189deg 100% 36%) 0%,
+    hsl(186deg 100% 37%) 21%,
+    hsl(180deg 100% 36%) 30%,
+    hsl(173deg 100% 38%) 39%,
+    hsl(166deg 100% 41%) 46%,
+    hsl(150deg 68% 53%) 54%,
+    hsl(119deg 66% 65%) 61%,
+    hsl(89deg 76% 61%) 69%,
+    hsl(69deg 82% 55%) 79%,
+    hsl(55deg 100% 50%) 100%
+  );
+  padding: 50px 0;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.conversion-unit {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.main-div {
+  padding: 15px 0;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+p {
+  color: #d2d2d2;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 10px;
+}

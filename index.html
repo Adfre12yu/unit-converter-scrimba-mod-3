@@ -5,8 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div class="body-div">
+      <header>
+        <h1>Metric/Imperial unit conversion</h1>
+        <input type="text" id="input-unit-el" />
+      </header>
+
+      <div class="main-div">
+        <div class="conversion-unit">
+          <h2>Length (Meter/Feet)</h2>
+          <p id="length-el">x meters = x feet | x feet = x meters</p>
+        </div>
+
+        <div class="conversion-unit">
+          <h2>Volume (Liters/Gallons)</h2>
+          <p id="volume-el">x liters = x gallons | x gallons = x liters</p>
+        </div>
+
+        <div class="conversion-unit">
+          <h2>Mass (Kilograms/Pounds)</h2>
+          <p id="mass-el">x kilos = x pounds | x pounds = x kilos</p>
+        </div>
+      </div>
+    </div>
+  </body>
   <script src="index.js"></script>
 </html>
